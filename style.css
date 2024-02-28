@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+}
+body{
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: rgb(96, 106, 248);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0 50px;
+    position: relative;
+}
+header.header1 {
+   text-align: center;
+}
+
+
+nav {
+    display: flex;
+    column-gap: 30px;
+}
+
+div.cont {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://unsplash.com/fr/photos/une-vue-aerienne-dun-plan-deau-D1jr0Mevs-c");
+background-size: cover;
+}
+
+div.header {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
+div.header1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
+
+header nav li {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+
+.cont .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    max-width: 90%;
+    color: white;
+}
+.cont .container h1 {
+    font-size: 50px;
+}
+
+.container a {
+    color: black;
+    background-color: white;
+    padding: 20px 50px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.categorie1 img {
+    background-color: rgba(128, 128, 128, 0.23);
+    /* padding: 10px 25px; */
+    border-radius: 5px;
+    color: grey;
+    /* display: auto; */
+    width: 32%;
+    /* justify-content: center; */
+}
+div.picture{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+div.cat-container {
+    justify-content: center;
+    background-color: antiquewhite;
+    display: flex;
+    column-gap: 15px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+div.cat-container1{
+    justify-content: center;
+    background-color: antiquewhite;
+    display: flex;
+    column-gap: 15px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+div .cat-container h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.categorie1 h1 {
+    text-align: center;
+}
+div.bouton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+div.bouton a{
+    display: inline-block;
+    background-color: rgb(218, 218, 10);
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+div.container a:hover{
+    background-color: rgb(176, 176, 240);
+    cursor: pointer;
+}
+section.sect2 {
+    padding: 50px 0;
+}
+footer {
+    background-color: rgb(96, 106, 248);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0 50px;
+    position: relative;
+}
+.cont{
+    background-image: url("/images/OIP.jpg");
+}
+@media screen and  (max-width:630px) {
+    /*body{
+        background-color: red;
+    }*/
+    .categorie1 img{
+        width: 45%;
+    }
+    .header1{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 250px) {
+    .categorie1 img{
+        width: 100%;
+    }
+}
